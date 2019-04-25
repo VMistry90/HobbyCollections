@@ -1,0 +1,247 @@
+﻿@model Hobbies.Areas.MovieTickets.Models.Movies
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    img {
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<div id="page-wrapper">
+    <h2>Movie Tickets</h2>
+    <div>
+        @Html.LabelFor(model => model.Anabelle, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Annabelle.jpg" />
+        </div>
+    </div>
+    
+    <div>
+        @Html.LabelFor(model => model.Avengers_InfinityWar, "Avengers Infinty War", htmlAttributes: new { @class = "control-label", @style = "text-align:center" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Avengers_InfinityWars.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.DaytheEarthStoodStill, "Day the Earth Stood Still", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/DaytheEarthStoodStill.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.District9, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/District9.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.IndianaJones, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/IndianaJones.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.JungleBook, "Jungle Book", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/JungleBook.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Kites, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Kites.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Noah, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Noah.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.QuantumofSolace, "James Bond - Quantum of Solace", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/QuantumofSolace.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Skyfall, "James Bond - Skyfall", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Skyfall.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.SlumDogMillionaire, "SlumDog Millionaire", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/SlumdogMillionaire.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.StarTrek, "Star Trek", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/StarTrek2009.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.XmenOrigins_Wolvervine, "X-Men Origins: Wolvervine", htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/XMenOrigins_Wolvervine.jpg" />
+        </div>
+    </div>
+
+
+    <div>
+        @Html.LabelFor(model => model.Spectre, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Spectre.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.StarWars, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/3D_StarWars.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.BajiraoMastani, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Bajirao Mastani.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.FinestHours, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/TheFinestHours.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Deadpool, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Deadpool.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.LondonHasFallen, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/LondonHasFallen.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.CaptainAmerica, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/CaptainAmerica.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.MissionImpossible2016, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/MissionImpossible_2015.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Startrek_2016, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/StarTrek.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.HungerGames_Mocking1, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/HungerGames_MockingBirdPart1.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.RedRidingHood, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/RedRidingHood.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.BattleLA, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/BattleLosAngeles.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.PiratesofCaribean, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/PiratesoftheCarribean.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Priest, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Priest.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.LionKing3D, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/LionKing_3D.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.GreenLantern, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/GreenLantern.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Immortals, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Immortals.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.MissionImpossible_2013, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/MissionImpossible_2011.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.HungerGames_2012, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/HungerGames_2012.jpg" />
+        </div>
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.Avengers_2012, htmlAttributes: new { @class = "control-label" })
+        <div>
+            <img src="~/Areas/MovieTickets/Images/Avengers.jpg" />
+        </div>
+    </div>
+
+</div>

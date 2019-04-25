@@ -126,6 +126,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\MovieTickets\Controllers\MoviesController.cs" />
+    <Compile Include="Areas\MovieTickets\Models\Movies.cs" />
+    <Compile Include="Areas\MovieTickets\MovieTicketsAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -133,6 +136,39 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\MovieTickets\Images\3D_StarWars.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Annabelle.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Avengers.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Avengers_InfinityWars.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Bajirao Mastani.jpg" />
+    <Content Include="Areas\MovieTickets\Images\BattleLosAngeles.jpg" />
+    <Content Include="Areas\MovieTickets\Images\CaptainAmerica.jpg" />
+    <Content Include="Areas\MovieTickets\Images\DaytheEarthStoodStill.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Deadpool.jpg" />
+    <Content Include="Areas\MovieTickets\Images\District9.jpg" />
+    <Content Include="Areas\MovieTickets\Images\GreenLantern.jpg" />
+    <Content Include="Areas\MovieTickets\Images\HungerGames_2012.jpg" />
+    <Content Include="Areas\MovieTickets\Images\HungerGames_MockingBirdPart1.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Immortals.jpg" />
+    <Content Include="Areas\MovieTickets\Images\IndianaJones.jpg" />
+    <Content Include="Areas\MovieTickets\Images\JungleBook.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Kites.jpg" />
+    <Content Include="Areas\MovieTickets\Images\LionKing_3D.jpg" />
+    <Content Include="Areas\MovieTickets\Images\LondonHasFallen.jpg" />
+    <Content Include="Areas\MovieTickets\Images\MissionImpossible_2011.jpg" />
+    <Content Include="Areas\MovieTickets\Images\MissionImpossible_2015.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Noah.jpg" />
+    <Content Include="Areas\MovieTickets\Images\PiratesoftheCarribean.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Priest.jpg" />
+    <Content Include="Areas\MovieTickets\Images\QuantumofSolace.jpg" />
+    <Content Include="Areas\MovieTickets\Images\RedRidingHood.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Skyfall.jpg" />
+    <Content Include="Areas\MovieTickets\Images\SlumdogMillionaire.jpg" />
+    <Content Include="Areas\MovieTickets\Images\Spectre.jpg" />
+    <Content Include="Areas\MovieTickets\Images\StarTrek.jpg" />
+    <Content Include="Areas\MovieTickets\Images\StarTrek2009.jpg" />
+    <Content Include="Areas\MovieTickets\Images\TheFinestHours.jpg" />
+    <Content Include="Areas\MovieTickets\Images\XMenOrigins_Wolvervine.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -143,6 +179,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\MovieTickets\Views\web.config" />
+    <Content Include="Areas\MovieTickets\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\MovieTickets\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\MovieTickets\Views\Movies\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
